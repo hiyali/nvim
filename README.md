@@ -19,3 +19,7 @@ git clone https://github.com/hiyali/nvim.git ~/.config/nvim
 nvim ~/.config/nvim/config/init.vimrc
 :PlugInstall <Enter>
 ```
+
+## Screenshot
+![nvim](https://raw.githubusercontent.com/hiyali/nvim/master/assets/images/screenshot-1.png "nvim")
+![nvim](https://raw.githubusercontent.com/hiyali/nvim/master/assets/images/screenshot-2.png "nvim")
