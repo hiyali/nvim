@@ -21,5 +21,4 @@ nvim ~/.config/nvim/config/init.vimrc
 ```
 
 ## Screenshot
-![nvim](https://raw.githubusercontent.com/hiyali/nvim/master/assets/images/screenshot-1.png "nvim")
-![nvim](https://raw.githubusercontent.com/hiyali/nvim/master/assets/images/screenshot-2.png "nvim")
+![nvim](https://raw.githubusercontent.com/hiyali/nvim/master/assets/images/screenshot-3.png "nvim")
