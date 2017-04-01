@@ -1,11 +1,8 @@
 " map Leader
 let mapleader = ","
+
 " keep backward f search, remapping it to ,;
 nnoremap <Leader>; ,
-
-" in-line scrolling
-nmap <Leader>j gj
-nmap <Leader>k gk
 
 " buffer keys
 nnoremap <Leader>bb :b#<CR>
@@ -52,9 +49,7 @@ cnoremap <expr> %% getcmdtype() == ':' ? expand('%:h').'/' : '%%'
 
 " CtrlP keys
 nnoremap <Leader>pp :CtrlP<CR>
-nnoremap <Leader>pf :CtrlP<CR>
 nnoremap <Leader>pm :CtrlPMRUFiles<CR>
-nnoremap <Leader>pr :CtrlPMRUFiles<CR>
 nnoremap <Leader>pb :CtrlPBuffer<CR>
 
 " Function keys
@@ -63,9 +58,9 @@ nnoremap <F3> :NERDTreeToggle<CR>
 nnoremap <F5> :source $HOME/.config/nvim/init.vim<CR>
 nnoremap <F6> :set hlsearch!<CR>
 nnoremap <F7> :UndotreeToggle<CR>
-nnoremap <F8> :Geeknote<CR>
+" nnoremap <F8> :Geeknote<CR>
 " indent whole file according to syntax rules
-noremap <F9> gg=G
+" noremap <F9> gg=G
 
 " CTRL-U in insert mode deletes a lot.  Use CTRL-G u to first break undo,
 " so that you can undo CTRL-U after inserting a line break.
@@ -95,6 +90,7 @@ cmap w!! %!sudo tee > /dev/null %
 
 " allow ,, for vimsneak
 nmap <Leader>, <Plug>SneakPrevious
+nmap nn <Plug>SneakNext
 
 " camelCase motion settings
 map <silent> w <Plug>CamelCaseMotion_w
