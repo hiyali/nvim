@@ -90,7 +90,6 @@ cmap w!! %!sudo tee > /dev/null %
 
 " allow ,, for vimsneak
 nmap <Leader>, <Plug>SneakPrevious
-nmap nn <Plug>SneakNext
 
 " camelCase motion settings
 map <silent> w <Plug>CamelCaseMotion_w
