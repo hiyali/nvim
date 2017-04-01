@@ -29,21 +29,17 @@ nnoremap <Leader>wx :close<CR>
 
 " for commentary
 nnoremap " :Commentary<CR>
-vnoremap " :'>Commentary<CR>
+vnoremap " :Commentary<CR>
 " :7,17Commentary
 
 " multiline moving
-" nnoremap <A-j> :m .+1<CR>==
+" <A-j>  ∆
+" <A-k>  ˚
 nnoremap ∆ :m .+1<CR>==
-" nnoremap <A-k> :m .-2<CR>==
 nnoremap ˚ :m .-2<CR>==
-" vnoremap <A-j> :m '>+1<CR>gv=gv
 vnoremap ∆ :m '>+1<CR>gv=gv
-" vnoremap <A-k> :m '<-2<CR>gv=gv
 vnoremap ˚ :m '<-2<CR>gv=gv
-" inoremap <A-j> <Esc>:m .+1<CR>==gi
 inoremap ∆ <Esc>:m .+1<CR>==gi
-" inoremap <A-k> <Esc>:m .-2<CR>==gi
 inoremap ˚ <Esc>:m .-2<CR>==gi
 
 " command mode maps
