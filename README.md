@@ -22,4 +22,4 @@ nvim ~/.config/nvim/config/init.vimrc
 ```
 
 ## Screenshot
-![nvim](https://raw.githubusercontent.com/hiyali/nvim/master/assets/images/screenshot-3.png "nvim")
+![nvim](https://raw.githubusercontent.com/hiyali/nvim/master/assets/images/screenshot-5.png "nvim")
