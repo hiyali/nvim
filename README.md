@@ -4,6 +4,7 @@ A neovim configurations
 ## Requirements
 * [neovim](https://github.com/neovim/neovim/wiki/Installing-Neovim)
 * [python client](https://pypi.python.org/pypi/neovim)
+* [nerd-fonts](https://github.com/ryanoasis/nerd-fonts#font-installation)
 
 ## Install python client
 ```shell

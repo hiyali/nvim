@@ -43,8 +43,9 @@ let g:ctrlp_prompt_mappings={'PrtClearCache()':['<Leader><F5>']}
 let g:ctrlp_prompt_mappings={'PrtdeleteEnt()':['<Leader><F7>']}
 let g:ctrlp_match_window='bottom,order:btt,min:2,max:15'
 set wildmenu " enhanced autocomplete
-set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*node_modules*,*.jpg,*.png,*.svg,*.ttf,*.woff,*.woff3,*.eot
+set wildignore+=*/tmp/*,*/node_modules/*,*/.git/*,*.so,*.swp,*.zip,*node_modules*,*.jpg,*.png,*.svg,*.ttf,*.woff,*.woff3,*.eot
 ",*public/css/*,*public/js*
+" let g:ctrlp_user_command = 'find %s -type f'
 
 " delimitMate options
 let delimitMate_expand_cr=1
@@ -89,3 +90,8 @@ let g:colorizer_nomap = 1
 " filetype plugin on
 
 " silent! helptags ALL
+
+
+" vim-devicons
+set guifont=Droid\ Sans\ Mono\ for\ Powerline\ Plus\ Nerd\ File\ Types:h11
+let g:airline_powerline_fonts = 1

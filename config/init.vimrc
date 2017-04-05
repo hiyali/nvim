@@ -38,6 +38,7 @@ Plug 'lilydjwg/colorizer', { 'on': 'ColorToggle' } " #aaa to Colorize
 " Plug 'mhartington/oceanic-next' "nice color / dark
 " Plug 'morhetz/gruvbox' "middle color / brown
 Plug 'dracula/vim' " my favorite
+Plug 'ryanoasis/vim-devicons'
 
 " javascript
 Plug 'isRuslan/vim-es6' " Write JavaScript ES6 easily with vim. (You need SnipMate or UltiSnips installed. ??)
