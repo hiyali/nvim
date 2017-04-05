@@ -27,10 +27,10 @@ let g:neomake_error_sign = {
 
 let g:neomake_open_list = 2
 
-let g:neomake_javascript_enabled_makers = ['eslint']
+let g:neomake_javascript_enabled_makers = ['eslint'] " need global eslint installed
 if exists(':Neomake')
   " Check for lint errors on open & write
-  autocmd BufRead,BufWritePost,BufEnter *.js,*.jsx silent! Neomake standard|redraw
+  autocmd BufRead,BufWritePost,BufEnter *.js,*.jsx,*.vue silent! Neomake standard|redraw
 endif
 
 " make background transparent
