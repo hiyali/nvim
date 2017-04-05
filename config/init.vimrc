@@ -8,9 +8,10 @@ Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' } " nerd tree
 Plug 'SirVer/ultisnips' " completion ~~  UltiSnips is the ultimate solution for snippets in Vim
 Plug 'honza/vim-snippets' " vim snippets
 Plug 'haya14busa/incsearch.vim' " search example: \salam
-Plug 'kien/ctrlp.vim' " quick look file
+Plug 'kien/ctrlp.vim' " quick look & open file
 Plug 'christoomey/vim-tmux-navigator' " navigate from vim to tmux windows
 Plug 'sheerun/vim-polyglot' " many language syntax ( indent, ftplugin, compiler, autoload)
+Plug 'terryma/vim-multiple-cursors' " Ctrl n multi cursor
 
 " editing
 Plug 'junegunn/vim-easy-align' " indent multi text ( easy align : so many feature )
@@ -25,9 +26,6 @@ Plug 'tpope/vim-surround' " ysiw' | ds{ds)  provides mappings to easily delete, 
 Plug 'tpope/vim-unimpaired' " [a cursor to previous a, ]x cursor to next x
 Plug 'justinmk/vim-sneak' " s{char}{char} to find {char}{char}, ; find and highlight next, ,, to find and highlight perivous, `` to s{char}{char}
 Plug 'vim-scripts/camelcasemotion' " when w,e,b help cursor stay at camelCaseWord
-
-" multicursor
-Plug 'terryma/vim-multiple-cursors' " Ctrl n multi cursor
 
 " eye candy
 Plug 'myusuf3/numbers.vim' " intelligently toggling line numbers
@@ -51,7 +49,6 @@ Plug 'guileen/vim-node-dict' " node dict for sort ??
 Plug 'moll/vim-node' " gf to jump to source and module files, :Nedit {module_name} to edit the main file of a module
 
 " Plug 'ternjs/tern_for_vim', { 'do': 'npm install' } " A JavaScript code analyzer for deep, cross-editor language support (no big help for me)
-Plug 'elzr/vim-json' " distinct highlighting of keywords vs values, JSON-specific (non-JS) warnings, quote concealing. Pathogen-friendly
 
 Plug 'posva/vim-vue'
 
@@ -63,7 +60,7 @@ Plug 'mxw/vim-jsx', { 'for': ['javascript', 'javascript.jsx'] } " JSX (React) sy
 Plug 'wellle/targets.vim' " ci' to (cut in single quote), also support (I l L a A n N) for (In Last last in  .. next Next)
 Plug 'glts/vim-textobj-comment' " provides text objects for comments,  looks not works well ??
 Plug 'kana/vim-textobj-fold' " provides text objects for fold , eg. yaz to yank arround fold
-" Plug 'kana/vim-textobj-function' " Text objects for functions, build error ??!
+Plug 'kana/vim-textobj-function' " Text objects for functions, build error ??!
 Plug 'kana/vim-textobj-indent' " Text objects for indented blocks of lines, eg. y- yank of blocks of lines
 Plug 'kana/vim-textobj-user' " create your own text objects without pain, eg. call textobj#user#plugin('datetime', { ...
 
@@ -82,5 +79,6 @@ Plug 'othree/csscomplete.vim' " Update the bult-in CSS complete function to late
 " other
 " Plug 'sentientmonkey/vim-lispy'
 " Plug 'elixir-lang/vim-elixir' " Elixir support for vim. This plugin also adds support for Elixir's templating language, EEx
+" Plug 'elzr/vim-json' " distinct highlighting of keywords vs values, JSON-specific (non-JS) warnings, quote concealing. Pathogen-friendly (not working well??)
 
 call plug#end()
