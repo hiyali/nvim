@@ -50,14 +50,14 @@ Plug 'othree/yajs.vim' " Another JavaScript Syntax file for Vim. Key differences
 Plug 'guileen/vim-node-dict' " node dict for sort ??
 Plug 'moll/vim-node' " gf to jump to source and module files, :Nedit {module_name} to edit the main file of a module
 
-Plug 'ternjs/tern', { 'do': 'npm install' } " A JavaScript code analyzer for deep, cross-editor language support ??
+" Plug 'ternjs/tern_for_vim', { 'do': 'npm install' } " A JavaScript code analyzer for deep, cross-editor language support (no big help for me)
 Plug 'elzr/vim-json' " distinct highlighting of keywords vs values, JSON-specific (non-JS) warnings, quote concealing. Pathogen-friendly
 
 Plug 'posva/vim-vue'
 
 " Plug 'digitaltoad/vim-jade' " Vim Pug (formerly Jade) template engine syntax highlighting and indention
 " Plug 'leafgarland/typescript-vim' " Typescript syntax files for Vim
-" Plug 'mxw/vim-jsx', { 'for': ['javascript', 'javascript.jsx'] } " JSX (React) syntax highlighting and indenting for vim
+Plug 'mxw/vim-jsx', { 'for': ['javascript', 'javascript.jsx'] } " JSX (React) syntax highlighting and indenting for vim
 
 " text objects
 Plug 'wellle/targets.vim' " ci' to (cut in single quote), also support (I l L a A n N) for (In Last last in  .. next Next)
@@ -77,7 +77,7 @@ Plug 'othree/csscomplete.vim' " Update the bult-in CSS complete function to late
 " Plug 'groenewege/vim-less' " vim syntax for LESS (dynamic CSS)
 
 " Lint
-Plug 'w0rp/ale' " Asynchronous Lint Engine , looks not worked ??
+" Plug 'w0rp/ale' " Asynchronous Lint Engine (not perfect, but awesome)
 
 " other
 " Plug 'sentientmonkey/vim-lispy'

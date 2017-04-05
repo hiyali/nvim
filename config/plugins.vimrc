@@ -79,3 +79,13 @@ endif
 " disable colorizer at startup
 let g:colorizer_startup = 0
 let g:colorizer_nomap = 1
+
+" ale (eslint)
+" set nocompatible
+" filetype off
+
+" let &runtimepath.=',~/.config/nvim/plugged/ale'
+
+" filetype plugin on
+
+" silent! helptags ALL
