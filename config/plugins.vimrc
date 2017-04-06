@@ -1,8 +1,6 @@
 filetype plugin indent on
 
 " deoplete
-" salamjan 2016.10.1
-let g:python3_host_prog = '/usr/local/bin/python3'
 
 let g:deoplete#enable_at_startup = 1
 let g:deoplete#disable_auto_complete = 0
@@ -10,6 +8,8 @@ autocmd InsertLeave,CompleteDone * if pumvisible() == 0 | pclose | endif
 if !exists('g:deoplete#omni#input_patterns')
   let g:deoplete#omni#input_patterns = {}
 endif
+
+let g:python3_host_prog = '/usr/local/bin/python3'
 
 " neomake config
 autocmd! BufWritePost * Neomake
@@ -59,16 +59,6 @@ hi SneakPluginTarget ctermfg=black ctermbg=181818
 " javascript libraries syntax
 let g:used_javascript_libs = 'vue' " underscore,react,chai, more to see -> /othree/javascript-libraries-syntax.vim
 
-" completion
-augroup omnifuncs
-  autocmd!
-  autocmd FileType css setlocal omnifunc=csscomplete#CompleteCSS
-  autocmd FileType html,markdown setlocal omnifunc=htmlcomplete#CompleteTags
-  autocmd FileType javascript setlocal omnifunc=javascriptcomplete#CompleteJS
-  autocmd FileType python setlocal omnifunc=pythoncomplete#Complete
-  autocmd FileType xml setlocal omnifunc=xmlcomplete#CompleteTags
-augroup end
-
 " tern
 if exists('g:plugs["tern_for_vim"]')
   let g:tern_show_argument_hints = 'on_hold'
@@ -81,17 +71,16 @@ endif
 let g:colorizer_startup = 0
 let g:colorizer_nomap = 1
 
-" ale (eslint)
+" " ale (eslint)
 " set nocompatible
 " filetype off
-
 " let &runtimepath.=',~/.config/nvim/plugged/ale'
-
 " filetype plugin on
-
 " silent! helptags ALL
-
 
 " vim-devicons
 set guifont=Droid\ Sans\ Mono\ for\ Powerline\ Plus\ Nerd\ File\ Types:h11
 let g:airline_powerline_fonts = 1
+
+" NERDTree
+let g:NERDTreeWinPos = 'right'
