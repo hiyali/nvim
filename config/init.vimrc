@@ -3,6 +3,7 @@ call plug#begin('~/.config/nvim/plugged')
 " general
 Plug 'ervandew/supertab' " super tab
 Plug 'benekastah/neomake' " asynchronously runs programs job-control functionality
+Plug 'jaawerth/neomake-local-eslint-first' " for eslint local
 Plug 'Shougo/deoplete.nvim' " dark powered neo-completion
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' } " nerd tree
 Plug 'SirVer/ultisnips' " completion ~~  UltiSnips is the ultimate solution for snippets in Vim
