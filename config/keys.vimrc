@@ -115,9 +115,9 @@ nmap <Leader><Space>p :lprev<CR>
 " folding
 nmap <Leader>f zf%
 " Folding {{{
-set foldenable			" enable folding
-set foldlevelstart=1	" start folding then we are 10 blocks deep
-set foldnestmax=5		" 10 nested fold max
+set foldenable			  " enable folding
+set foldlevelstart=2	" start folding then we are 10 blocks deep
+set foldnestmax=5		  " 10 nested fold max
 set foldmethod=indent	" fold based on indent level
 "}}}
 
