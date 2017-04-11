@@ -1,19 +1,19 @@
 # nvim
 A neovim configurations
 
-## Requirements
+## Install
+* [python3](https://www.python.org/)
 * [neovim](https://github.com/neovim/neovim/wiki/Installing-Neovim)
-* [python client](https://pypi.python.org/pypi/neovim)
 * [nerd-fonts](https://github.com/ryanoasis/nerd-fonts#font-installation)
 
-## Install python client
+## Install
+### Mac OS (OS X)
 ```shell
-wget https://github.com/neovim/python-client/archive/0.1.13.tar.gz # version maybe already updated
-tar -xvf neovim-0.1.13.tar.gz
-cd neovim-0.1.13/
-python3 setup.py install
+brew install python3
+pip3 install neovim
+cd ~/Library/Fonts && curl -fLo "Droid Sans Mono for Powerline Nerd Font Complete.otf" https://raw.githubusercontent.com/ryanoasis/nerd-fonts/master/patched-fonts/DroidSansMono/complete/Droid%20Sans%20Mono%20for%20Powerline%20Nerd%20Font%20Complete.otf
+// And set your term fonts to "Droid Sans Mono for Powerline Nerd Font Complete.otf"
 ```
-More information about [Setting up Python for Neovim](https://github.com/zchee/deoplete-jedi/wiki/Setting-up-Python-for-Neovim)
 
 ## Install plugins
 ```shell
