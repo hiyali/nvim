@@ -19,8 +19,8 @@ cd ~/Library/Fonts && curl -fLo "Droid Sans Mono for Powerline Nerd Font Complet
 ```shell
 git clone https://github.com/hiyali/nvim.git ~/.config/nvim
 nvim ~/.config/nvim/config/init.vimrc
-:PlugInstall <Enter>
+:PlugInstall <CR>
 ```
 
 ## Screenshot
-![nvim](https://raw.githubusercontent.com/hiyali/nvim/master/assets/images/screenshot-6.png "nvim")
+![nvim](https://raw.githubusercontent.com/hiyali/nvim/master/assets/images/screenshot-7.png "nvim")
