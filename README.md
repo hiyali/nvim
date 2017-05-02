@@ -7,7 +7,7 @@ A neovim configurations
 * [nerd-fonts](https://github.com/ryanoasis/nerd-fonts#font-installation)
 
 ## Install
-### Mac OS (OS X)
+### Homebrew (macOS) / Linuxbrew (Linux)
 ```shell
 brew install neovim/neovim/neovim
 brew install python3
@@ -16,7 +16,7 @@ cd ~/Library/Fonts && curl -fLo "Droid Sans Mono for Powerline Nerd Font Complet
 # And set your terminal fonts to "Droid Sans Mono for Powerline Nerd Font Complete"
 ```
 
-## Install nvim plugins
+### Configurations & Plugins
 ```shell
 git clone https://github.com/hiyali/nvim.git ~/.config/nvim
 nvim ~/.config/nvim/config/init.vimrc
