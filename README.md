@@ -2,13 +2,14 @@
 A neovim configurations
 
 ## Requirements
-* [python3](https://www.python.org/)
 * [neovim](https://github.com/neovim/neovim/wiki/Installing-Neovim)
+* [python3](https://www.python.org/)
 * [nerd-fonts](https://github.com/ryanoasis/nerd-fonts#font-installation)
 
 ## Install
 ### Mac OS (OS X)
 ```shell
+brew install neovim/neovim/neovim
 brew install python3
 pip3 install neovim
 cd ~/Library/Fonts && curl -fLo "Droid Sans Mono for Powerline Nerd Font Complete.otf" https://raw.githubusercontent.com/ryanoasis/nerd-fonts/master/patched-fonts/DroidSansMono/complete/Droid%20Sans%20Mono%20for%20Powerline%20Nerd%20Font%20Complete.otf
