@@ -131,3 +131,6 @@ autocmd FileType javascript nnoremap <silent> <buffer> gb :TernDef<CR>
 
 " colorizer
 nmap <Leader>tc :ColorToggle<CR>
+
+" for vnoremap selection search
+vnoremap / y/<C-R>"<CR>

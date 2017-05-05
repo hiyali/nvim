@@ -85,3 +85,8 @@ let g:airline_powerline_fonts = 1
 
 " NERDTree
 let g:NERDTreeWinPos = 'right'
+
+" vim-json
+if (&ft=='json')
+    let s:use_python = 0
+endif
