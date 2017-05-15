@@ -87,6 +87,9 @@ set nrformats-=octal
 set ttimeout
 set ttimeoutlen=100
 
+" For php tab space
+autocmd Filetype php setlocal ts=4 sw=4 sts=0 expandtab
+
 " detect .md as markdown instead of modula-2
 autocmd BufNewFile,BufReadPost *.md set filetype=markdown
 
@@ -136,4 +139,3 @@ if (executable('pbcopy') || executable('xclip') || executable('xsel')) && has('c
   set clipboard=unnamed
 endif
 " set clipboard=unnamedplus " salam
-
