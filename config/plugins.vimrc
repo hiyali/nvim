@@ -87,6 +87,7 @@ let g:airline_powerline_fonts = 1
 let g:NERDTreeWinPos = 'right'
 
 " vim-json
-if (&ft=='json')
-    let s:use_python = 0
-endif
+hi! def link jsonKeyword Identifier
+
+" vue
+autocmd BufRead,BufNewFile *.vue setlocal filetype=vue.html.javascript.css
