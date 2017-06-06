@@ -41,6 +41,8 @@ Plug 'ryanoasis/vim-devicons' " look at beauty icons
 
 " javascript
 Plug 'isRuslan/vim-es6' " Write JavaScript ES6 easily with vim. (You need SnipMate or UltiSnips installed. ??)
+Plug 'leafgarland/typescript-vim' " just for typescript
+Plug 'mhartington/vim-angular2-snippets' " for TS and ng2 (version 4.o.o >=)
 Plug 'moll/vim-node' " gf to jump to source and module files, :Nedit {module_name} to edit the main file of a module
 Plug 'mxw/vim-jsx', { 'for': ['javascript', 'javascript.jsx'] } " JSX (React) syntax highlighting and indenting for vim
 Plug 'othree/javascript-libraries-syntax.vim' " Supports JavaScript libraries . Should work well with other (ng, react, vue, coffeScript, typeScript...)
