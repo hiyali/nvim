@@ -1,5 +1,5 @@
 # nvim
-A neovim configurations
+A neovim configuration repo with many plugins that for more easily to install and configure your neovim!
 
 ## Requirements
 * [neovim](https://github.com/neovim/neovim/wiki/Installing-Neovim)
