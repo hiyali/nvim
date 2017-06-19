@@ -1,4 +1,4 @@
-# nvim
+# h.nvim
 A neovim configuration repo with many plugins that for more easily to install and configure your neovim!
 
 ## Requirements
