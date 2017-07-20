@@ -1,5 +1,5 @@
-# nvim
-A neovim configurations
+# h.nvim
+A neovim configuration repo with many plugins that for more easily to install and configure your neovim!
 
 ## Requirements
 * [neovim](https://github.com/neovim/neovim/wiki/Installing-Neovim)
@@ -22,7 +22,7 @@ And set your terminal fonts to "Droid Sans Mono for Powerline Nerd Font Complete
 
 ### 3. Configurations & Plugins
 ```shell
-git clone https://github.com/hiyali/nvim.git ~/.config/nvim
+git clone https://github.com/hiyali/h.nvim.git ~/.config/nvim
 nvim ~/.config/nvim/config/init.vimrc
 :PlugInstall <CR>
 ```

@@ -26,7 +26,9 @@ let g:neomake_error_sign = {
   \ 'texthl': 'ErrorMsg',
   \ }
 
+" let g:neomake_list_height = 2
 let g:neomake_open_list = 2
+" let g:neomake_verbose = 3
 
 let b:neomake_javascript_eslint_exe = nrun#Which('eslint') " for find local eslint
 let g:neomake_javascript_enabled_makers = ['eslint']
@@ -92,3 +94,7 @@ hi! def link jsonKeyword Identifier
 
 " vue
 autocmd BufRead,BufNewFile *.vue setlocal filetype=vue.html.javascript.css
+
+" For php tab space
+autocmd Filetype php setlocal ts=4 sw=4 sts=0 expandtab
+autocmd Filetype blade setlocal ts=2 sw=2 sts=0 expandtab

@@ -15,6 +15,7 @@ Plug 'jaawerth/neomake-local-eslint-first' " for eslint local
 Plug 'kien/ctrlp.vim' " quick look & open file
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' } " nerd tree
 Plug 'terryma/vim-multiple-cursors' " Ctrl n multi cursor
+Plug 'sheerun/vim-polyglot' " A collection of language packs for Vim.
 
 " editing
 Plug 'Raimondi/delimitMate' " automatic closing of quotes, parenthesis, brackets, etc.
@@ -41,6 +42,8 @@ Plug 'ryanoasis/vim-devicons' " look at beauty icons
 
 " javascript
 Plug 'isRuslan/vim-es6' " Write JavaScript ES6 easily with vim. (You need SnipMate or UltiSnips installed. ??)
+Plug 'leafgarland/typescript-vim' " just for typescript
+Plug 'mhartington/vim-angular2-snippets' " for TS and ng2 (version 4.o.o >=)
 Plug 'moll/vim-node' " gf to jump to source and module files, :Nedit {module_name} to edit the main file of a module
 Plug 'mxw/vim-jsx', { 'for': ['javascript', 'javascript.jsx'] } " JSX (React) syntax highlighting and indenting for vim
 Plug 'othree/javascript-libraries-syntax.vim' " Supports JavaScript libraries . Should work well with other (ng, react, vue, coffeScript, typeScript...)
