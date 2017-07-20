@@ -9,7 +9,8 @@ if !exists('g:deoplete#omni#input_patterns')
   let g:deoplete#omni#input_patterns = {}
 endif
 
-let g:python3_host_prog = '/usr/local/bin/python3'
+" let g:python3_host_prog = '/usr/local/bin/python3' " MacOS
+let g:python3_host_prog = '/usr/bin/python3' " ubuntu 16.04
 
 " neomake config
 autocmd! BufWritePost * Neomake
