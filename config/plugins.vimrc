@@ -96,6 +96,7 @@ let g:NERDTreeWinPos = 'right'
 
 " vim-json
 hi! def link jsonKeyword Identifier
+let g:vim_json_syntax_conceal = 1
 
 " vue
 autocmd BufRead,BufNewFile *.vue setlocal filetype=vue.html.javascript.css
