@@ -3,7 +3,7 @@ filetype plugin indent on
 " deoplete
 
 let g:deoplete#enable_at_startup = 1
-let g:deoplete#disable_auto_complete = 0
+let g:deoplete#disable_auto_complete = 1
 autocmd InsertLeave,CompleteDone * if pumvisible() == 0 | pclose | endif
 if !exists('g:deoplete#omni#input_patterns')
   let g:deoplete#omni#input_patterns = {}
@@ -100,6 +100,7 @@ let g:vim_json_syntax_conceal = 1
 
 " vue
 autocmd BufRead,BufNewFile *.vue setlocal filetype=vue.html.javascript.css
+" let g:vue_disable_pre_processors = 1
 
 " For php tab space
 autocmd Filetype php setlocal ts=4 sw=4 sts=0 expandtab
