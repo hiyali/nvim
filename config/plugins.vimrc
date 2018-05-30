@@ -105,3 +105,8 @@ autocmd BufRead,BufNewFile *.vue setlocal filetype=vue.html.javascript.css
 " For php tab space
 autocmd Filetype php setlocal ts=4 sw=4 sts=0 expandtab
 autocmd Filetype blade setlocal ts=2 sw=2 sts=0 expandtab
+
+" vim-go
+let g:deoplete#sources#go#gocode_binary = $GOPATH.'/bin/gocode'
+let g:deoplete#sources#go#sort_class = ['package', 'func', 'type', 'var', 'const']
+autocmd Filetype go setlocal ts=2 sw=2 sts=0 expandtab
