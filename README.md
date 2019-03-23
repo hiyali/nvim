@@ -31,4 +31,7 @@ nvim ~/.config/nvim/config/init.vimrc
 [wiki](https://github.com/hiyali/nvim/wiki)
 
 ## Screenshot
-![nvim](https://raw.githubusercontent.com/hiyali/nvim/master/assets/images/screenshot-8.png "nvim")
+![nvim](https://raw.githubusercontent.com/hiyali/nvim/master/assets/images/nvim-readme.png "nvim")
+
+## Contribute
+> Feel free
