@@ -20,7 +20,7 @@ Plug 'terryma/vim-multiple-cursors' " Ctrl n multi cursor
 " editing
 Plug 'Raimondi/delimitMate' " automatic closing of quotes, parenthesis, brackets, etc.
 Plug 'airblade/vim-gitgutter' " shows a git diff in the 'gutter'
-Plug 'junegunn/vim-easy-align' " indent multi text ( easy align : so many feature ), eg: `gaip* `
+Plug 'junegunn/vim-easy-align' " indent multi text ( easy align : so many feature ), eg: `gaip* ` `v2j<Enter>*:`
 Plug 'mbbill/undotree' " undo tree
 Plug 'nathanaelkane/vim-indent-guides' " `,ig` to toggle
 Plug 'tpope/vim-commentary' " for multiline became to comment lines
