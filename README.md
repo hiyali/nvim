@@ -1,6 +1,14 @@
 # nvim
 A neovim configuration repo with many plugins that for more easily to install and configure your neovim!
 
+## QUICK!
+> For ubuntu
+```shell
+bash <(curl -s https://raw.githubusercontent.com/hiyali/nvim/master/scripts/install-in-ubuntu.sh)
+nvim ~/.config/nvim/config/init.vimrc
+:PlugInstall <ENTER>
+```
+
 ## Requirements
 * [neovim](https://github.com/neovim/neovim/wiki/Installing-Neovim)
 * [python3](https://www.python.org/)
