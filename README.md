@@ -1,7 +1,7 @@
 # nvim
 A neovim configuration repo with many plugins that for more easily to install and configure your neovim!
 
-## QUICK!
+## QUICK way to get it!
 > For ubuntu
 
 #### 1. First of all install them
@@ -16,6 +16,8 @@ bash <(curl -s https://raw.githubusercontent.com/hiyali/nvim/master/scripts/inst
 nvim ~/.config/nvim/config/init.vimrc
 :PlugInstall <ENTER>
 ```
+
+---
 
 ## Requirements
 * [neovim](https://github.com/neovim/neovim/wiki/Installing-Neovim)
@@ -40,7 +42,7 @@ And set your terminal fonts to "Droid Sans Mono for Powerline Nerd Font Complete
 ```shell
 git clone https://github.com/hiyali/nvim.git ~/.config/nvim
 nvim ~/.config/nvim/config/init.vimrc
-:PlugInstall <CR>
+:PlugInstall <ENTER>
 ```
 
 ## Usage docs
