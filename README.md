@@ -27,8 +27,7 @@ nvim ~/.config/nvim/config/init.vimrc
 ## Install & Configure
 ### 1. Install - Homebrew (macOS) / Linuxbrew (Linux)
 ```shell
-brew install neovim/neovim/neovim
-brew install python3
+brew install neovim
 pip3 install neovim
 ```
 
