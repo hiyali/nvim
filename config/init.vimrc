@@ -63,6 +63,9 @@ Plug 'posva/vim-vue'
 " Require: go get -u github.com/nsf/gocode
 Plug 'fatih/vim-go' , { 'do': ':GoInstallBinaries' } " GoUpdateBinaries will take a long time
 
+" python
+Plug 'python-mode/python-mode', { 'for': 'python', 'branch': 'develop' }
+
 " html
 Plug 'mattn/emmet-vim' " provides support for expanding abbreviations similar to emmet
 Plug 'othree/html5.vim' " HTML5 + inline SVG omnicomplete function, indent and syntax for Vim. Based on the default htmlcomplete.vim, This plugin contributes to vim-polyglot language pack.
