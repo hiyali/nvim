@@ -9,13 +9,16 @@ if !exists('g:deoplete#omni#input_patterns')
   let g:deoplete#omni#input_patterns = {}
 endif
 
-if system('uname -s') == "Darwin\n"
-  " OSX
-  let g:python3_host_prog = '/usr/local/bin/python3'
-else
-  " Linux
-  let g:python3_host_prog = '/usr/bin/python3'
-endif
+" if system('uname -s') == "Darwin\n"
+"   " OSX
+"   let g:python3_host_prog = '/usr/local/bin/python3'
+" else
+"   " Linux
+"   let g:python3_host_prog = '/usr/bin/python3'
+" endif
+
+" Linux & (new) OSX
+let g:python3_host_prog = '/usr/bin/python3'
 
 " neomake config
 autocmd! BufWritePost * Neomake
@@ -97,6 +100,9 @@ let g:NERDTreeWinPos = 'right'
 " vim-json
 hi! def link jsonKeyword Identifier
 let g:vim_json_syntax_conceal = 1
+
+" javascript
+autocmd BufRead,BufNewFile *.js setlocal filetype=javascript
 
 " vue
 autocmd BufRead,BufNewFile *.vue setlocal filetype=vue.html.javascript.css
