@@ -116,3 +116,10 @@ autocmd Filetype blade setlocal ts=2 sw=2 sts=0 expandtab
 let g:deoplete#sources#go#gocode_binary = $GOPATH.'/bin/gocode'
 let g:deoplete#sources#go#sort_class = ['package', 'func', 'type', 'var', 'const']
 autocmd Filetype go setlocal ts=2 sw=2 sts=0 expandtab
+
+" Python
+" pythonmod
+let g:pymode_lint = 1
+let g:pymode_python = 'python3'
+" fold
+autocmd BufReadPost,BufEnter *.py normal zM
