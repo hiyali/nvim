@@ -5,20 +5,22 @@ filetype plugin indent on
 let g:deoplete#enable_at_startup = 1
 let g:deoplete#disable_auto_complete = 1
 autocmd InsertLeave,CompleteDone * if pumvisible() == 0 | pclose | endif
-if !exists('g:deoplete#omni#input_patterns')
-  let g:deoplete#omni#input_patterns = {}
-endif
-
-" if system('uname -s') == "Darwin\n"
-"   " OSX
-"   let g:python3_host_prog = '/usr/local/bin/python3'
-" else
-"   " Linux
-"   let g:python3_host_prog = '/usr/bin/python3'
+let g:deoplete#omni_input_patterns = {}
+" if !exists('g:deoplete#omni#input_patterns')
+"   let g:deoplete#omni#input_patterns = {}
 " endif
 
+if system('uname -s') == "Darwin\n"
+  " OSX
+  let g:python3_host_prog = '/opt/homebrew/Caskroom/miniforge/base/bin/python3'
+  " /usr/local/bin/python3
+else
+  " Linux
+  let g:python3_host_prog = '/usr/bin/python3'
+endif
+
 " Linux & (new) OSX
-let g:python3_host_prog = '/usr/bin/python3'
+" let g:python3_host_prog = '/usr/bin/python3'
 
 " neomake config
 autocmd! BufWritePost * Neomake
