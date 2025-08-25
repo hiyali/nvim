@@ -3,3 +3,5 @@ plugged/
 undodir/
 fonts/
 .netrwhist
+autoload/plug.vim.old
+.DS_Store

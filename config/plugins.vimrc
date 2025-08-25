@@ -12,7 +12,7 @@ let g:deoplete#omni_input_patterns = {}
 
 if system('uname -s') == "Darwin\n"
   " OSX
-  let g:python3_host_prog = '/opt/homebrew/Caskroom/miniforge/base/bin/python3'
+  let g:python3_host_prog = '/usr/bin/python3'
   " /usr/local/bin/python3
 else
   " Linux
